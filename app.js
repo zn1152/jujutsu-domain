@@ -1,3 +1,6 @@
+require('./lib/mongoose');
+require('./lib/schema');
+var appModel = require('./lib/appModel');
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
